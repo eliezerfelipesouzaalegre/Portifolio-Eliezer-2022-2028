@@ -1,0 +1,347 @@
+* {
+    text-decoration:none;
+    margin:0px;
+    font-family:'Courier New', Courier, monospace;
+    text-align:justify;
+    font-weight:lighter;   
+    list-style:none;
+    text-decoration:none;
+}
+
+nav {
+    border:1px solid rgb(8, 0, 41);
+    background-color:rgb(3, 3, 39);
+    color:white;
+    font-size:17px;
+    padding:37px;
+}
+
+#divisão001 {
+ display:inline-block;
+ padding:17px;
+}
+
+#divisão001:hover  >#home001 {
+    color:rgb(129, 129, 129);
+ background-color:rgb(1, 1, 17); 
+ transition:0.3s;
+}
+
+#divisão002:hover  >#nome001 {
+    color:rgb(129, 129, 129);
+ background-color:rgb(1, 1, 17);
+ transition:0.3s;
+}
+
+#divisão003:hover  >#sabermais {
+    color:rgb(129, 129, 129);
+    background-color:rgb(1, 1, 17);
+    transition:0.3s;
+}
+
+#Menu001:hover {
+    color:rgb(129, 129, 129);
+    background-color:rgb(1, 1, 17);
+    float:left;
+    transition:0.3s;
+}
+
+#divisão001   li{
+   text-align:right;     
+   }
+
+body {
+    font-family:'Fredericka the Great';    
+    background-attachment:fixed;
+    list-style:none;
+    background: url("img/llll.png") center;
+}
+
+nav li{
+  display:inline-block; 
+}
+
+ul {
+    text-align:right;
+}
+a {
+    color:white;
+}
+
+.menu001 {
+    float:left;
+    color:white;
+    padding:17px;
+}
+
+.Contato {
+    border:2px solid white;    
+    background-color:rgb(1, 1, 17);
+    color:white;   
+    text-align:center;    
+    display:none;  
+    padding:7px; 
+}
+
+.menu001:hover > .Contato { 
+    display:block;
+    transition:0.3s;
+}
+
+.menu001:hover .Contato{    
+   background-color:rgb(1, 1, 17); 
+   border:2px solid black;   
+   display:block;
+   transition:0.3s;
+}
+
+#numero {
+    display:none;
+    color:white; 
+    border:1px solid white;   
+    float:left; 
+    background:rgb(1, 1, 17);
+    height:27px;
+    width:127px;
+    font-family:17px;
+    padding-left:1px;
+}
+
+.Contato:hover>#numero{
+    display:block;    
+    transition:0.3s;
+}
+.Contato:hover {
+    color:rgb(97, 97, 97);
+    transition:0.3s;
+}
+
+.menu001:hover {  
+    color:gainsboro;
+    background-color:rgb(1, 1, 17);
+    transition:0.3s;
+}
+
+#numero:hover {
+    color:rgb(97, 97, 97);
+    border:2px solid rgb(97, 97, 97);
+    transition:0.3s;
+   }
+
+#insta001:hover {
+    color:rgb(97, 97, 97);   
+    transition:0.3s;    
+}
+
+#sabermais001:hover {
+    color:rgb(97, 97, 97);
+    transition:0.3s;
+}
+
+#oquefaço0011 li{
+    padding-top:77px;
+    display:inline-block;    
+    margin:auto; 
+}
+
+.investir001 {
+    border-radius:17px;
+    border:2px solid white;  
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Waterfall', cursive;
+    margin-right:22px;
+    background-color:rgb(1, 1, 17);
+}
+
+#investir0011 {
+    padding-right:137px;       
+}
+
+#sabersobre001 h1{
+    display:none;
+    color:black;  
+}
+
+#sabersobre001:hover> h1{
+  display:block;
+  padding:50px;
+  transition:0.3s;
+}
+
+#spaner001 {
+    color:orange;
+    font-size:30px; text-align:center; font-family:'Fredericka the Great'   
+}
+
+#spaner002 {
+    color:skyblue;
+    font-size:30px; text-align:center; font-family:'Fredericka the Great'   
+}
+
+#spaner003 {    
+    color:yellow;
+    font-size:30px; text-align:center; font-family:'Fredericka the Great'      
+}
+
+#lista0017 {
+    border:4px solid greenyellow;
+    background-color:black;
+    color:greenyellow;
+    padding-top:21px;    
+}
+
+#lista0017:hover {
+    background: url("img/hr.png") center ;  
+    transition:0.9s;
+}
+
+#estudo001:hover {
+    background: url("img/madeira.png") center;
+    transition:0.3s;
+}
+
+#listacarros001 {   
+ background-image:linear-gradient(to right, black, gray);
+}
+
+#listacarros001:hover  {
+    border:2px solid blue;
+    background-image:linear-gradient(to right, gray, black) ;   
+    transition:0.9s;
+}
+
+#lista0022 {
+    background-image:linear-gradient(to right, rgb(29, 0, 95)50%, rgb(0, 255, 149));
+}
+
+#lista0022:hover {
+    border:2px solid yellow;
+    background-image:linear-gradient(to right, rgb(0, 255, 149), rgb(29, 0, 95) );   
+    transition:0.9s;
+}
+
+#frase-home001 {    
+    margin:17px;
+    float:right;
+    border:2px solid whitesmoke;
+    background-color:white;
+    height:57px;
+    width:350px;
+    border-radius:15px;
+    color:black;
+    padding:17px;
+}
+
+#frase002 {
+    margin-top:177px;
+    float:right;
+    padding:7px;
+    height:110px;
+    width:487px;
+    color:black;
+    border:2px solid whitesmoke;
+    background-color:white;
+    border-radius:15px;
+}
+
+#colunasite001 {
+    display:inline-flex;
+}
+
+#rdc-001 {   
+    text-align:center;
+    margin-top:21px;
+    font-size:9px;    
+    margin-bottom:0px;
+    height:900px;
+    width:800px;
+    margin-left:157px;    
+    color:#ffff;
+    border:2px solid rgba(14, 14, 14, 0);      
+}
+
+#donodosite {
+    color:turquoise;
+    font:x-large;
+}
+
+#h1001 {   
+    text-align:left;
+    margin-top:17px;
+    margin-left:17px;  
+}
+
+#h1001:hover {
+   color:gray;   
+   transition:0.9s;   
+}
+
+#titlegamer {
+    color:greenyellow;
+    font-weight:100;
+    margin:auto;
+    text-shadow: 4px 4px 6px rgb(172, 255, 47);
+}
+
+#navgamer001 {
+    background-color:black;
+}
+
+#body002 {
+    background: url("img/gamerr.jpg") center;
+    background-attachment:fixed;
+}
+
+#menugamer001 {
+    color:greenyellow;
+}
+
+#menugamer001:hover {
+    color:rgb(153, 255, 0);
+}
+
+.paragrafohome001 {
+    font-size:17px;
+    text-align:justify;    
+}
+
+.listaclassificada001 {   
+   border:2px solid rgb(3, 3, 39);
+   width:180px;
+   background-color:white;
+   color:black;
+   padding:17px;
+   margin:3px;
+   border-radius:3px;
+   margin-right:28px;
+}
+
+#ullihome001 li{
+    display:inline-block;   
+    text-align:center; 
+}
+
+#lista001home007 {    
+    text-align:center;
+}
+
+#h1home007 {    
+    text-align:center;
+}
+
+#paragrafo008 {
+    padding-top:16px;
+}
+
+#paragrafo0011221 {
+    font-size:15px;
+    padding-top:1px;
+}
+
+#tituloparagrafo00107 {
+    padding-top:14px;
+}
+
+#lista5001home001 {   
+    padding-top:73px;
+}
